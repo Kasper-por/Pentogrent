@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pent & Grent – Praktisk hjelp for eldre</title>
+  <meta name="description" content="Pent & Grent tilbyr pålitelig og praktisk hjelp for eldre: snømåking, handling, rydding og hagearbeid." />
+  <!-- Google Analytics (legg inn ID senere) -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
+    gtag('config', 'G-XXXX');
+  </script> -->
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; background:#f7f7f7; color:#222; }
+    header { background:#2f855a; color:white; padding:1.5rem; text-align:center; }
+    section { padding:2rem; max-width:900px; margin:auto; background:white; margin-top:1rem; border-radius:8px; }
+    h2 { color:#2f855a; }
+    .services { display:grid; grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); gap:1rem; }
+    .card { border:1px solid #ddd; border-radius:6px; padding:1rem; }
+    .cta { background:#2f855a; color:white; padding:1rem; text-align:center; border-radius:6px; margin-top:1rem; }
+    .cta a { color:white; text-decoration:none; font-weight:bold; }
+    footer { text-align:center; padding:1.5rem; font-size:0.9rem; color:#555; }
+    label { display:block; margin-top:1rem; }
+    input, select, textarea, button { width:100%; padding:0.6rem; margin-top:0.3rem; }
+    button { background:#2f855a; color:white; border:none; border-radius:4px; cursor:pointer; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Pent & Grent</h1>
+  <p>Praktisk og pålitelig hjelp for eldre og pårørende</p>
+  <p><strong>Telefon:</strong> 9X XX XX XX</p>
+</header>
+
+<section>
+  <h2>Hva vi hjelper med</h2>
+  <div class="services">
+    <div class="card">❄️ Snømåking og strøing</div>
+    <div class="card">🛒 Handling av matvarer</div>
+    <div class="card">🍂 Raking av løv og hagearbeid</div>
+    <div class="card">🧹 Rydding og enkel rengjøring</div>
+  </div>
+</section>
+
+<section>
+  <h2>Om oss</h2>
+  <p>Pent & Grent er en familiebedrift som hjelper eldre med praktiske gjøremål i hverdagen. Vi legger stor vekt på trygghet, ærlighet og god kommunikasjon.</p>
+  <p>Hos oss møter du alltid samme mennesker – ryddige, pålitelige og lokale.</p>
+</section>
+
+<section>
+  <h2>Bestill hjelp</h2>
+  <form>
+    <label>Tjeneste
+      <select name="service">
+        <option>Snømåking</option>
+        <option>Handling</option>
+        <option>Hagearbeid</option>
+        <option>Rydding i hjemmet</option>
+      </select>
+    </label>
+    <label>Navn
+      <input type="text" name="name" required />
+    </label>
+    <label>Telefon
+      <input type="tel" name="phone" required />
+    </label>
+    <label>Adresse
+      <input type="text" name="address" />
+    </label>
+    <label>Kommentar
+      <textarea name="message"></textarea>
+    </label>
+    <button type="submit">Send forespørsel</button>
+  </form>
+  <p style="font-size:0.9rem; color:#555;">Ingen forpliktelser – vi tar kontakt for å avtale.</p>
+</section>
+
+<footer>
+  © 2026 Pent & Grent – Trygg hjelp i hverdagen
+</footer>
+
+</body>
+</html>
